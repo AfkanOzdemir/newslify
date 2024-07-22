@@ -18,8 +18,9 @@ const NewsCards = (props: Props) => {
       <CardHeader className="flex flex-col gap-3">
         <Image
           alt="Başlık"
-          height={150}
+          height={250}
           radius="sm"
+          width={"100%"}
           src="https://im.haberturk.com/l/2024/07/22/ver1721672560/3704838/jpg/1280x1280"
         />
         <div className="flex flex-col">
